@@ -1,0 +1,10 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced? It shows where things changed.  So, if it was working before and it doesn't now, then whatever you changed broke it.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term? Seeing all the changes helps you understand how and why the code evolved the way it did.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does? Manually choosing your commit point adds intelligence to the commit. You will manually commit when one logical change has been made, not before it's done or after another logical change has been made.
+
+How can you use the commands git log and git diff to view the history of files? Git log shows you all the commit points and the associated information: date/timestamp, comments, etc. in chronological order.  When you know a problem began, you can find the commit point and compare it to the previous commit point using diff to see what changed and caused the problem.
+
+How might using version control make you more confident to make changes that could break something? I would be more confident making changes because I know that I could always go back to an older, working version if I introduced a bug.
+
