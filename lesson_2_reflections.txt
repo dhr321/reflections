@@ -1,0 +1,2 @@
+What happens when you initialize a repository? Why do you need to do it? when you initialize a repository, Git creates a .git file that stores metadata about the repository.  It also keeps track of the checked out version of the commit ID. Initializing allows you to bring files under Git version control.
+
